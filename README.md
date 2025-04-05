@@ -28,6 +28,7 @@ Overclocking in general will shorten the lifespan of some hardware components. Y
 1. Download latest [release](https://github.com/NaGaa95/L4T-OC-Kernel/releases).
 2. Place `uImage` `nx-plat.dtimg` `modules.tar.gz` in `/switchroot/*ubuntu*/` on your SD Card
 3. If not already done, set `dvfsb=1` / `gpu_dvfsc=1` in your L4T Boot config `(Bootloader/ini/*L4T*.ini)`
+/!\ UV Kernel only is recommended for low speedo (-1600) and Switch Lite /!\
 
 ### Switch Lite :
 * To unlock CPU / GPU Freqs you also need to replace the `boot.scr` file in `/switchroot/*ubuntu*/`
