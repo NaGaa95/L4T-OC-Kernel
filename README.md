@@ -8,7 +8,7 @@ Overclocking in general will shorten the lifespan of some hardware components. Y
 
 # Features 
 
-* CPU Overclock up to 2600 MHz
+* CPU Overclock up to 2601 MHz
   * EOS CPU UV 4
   * High-Frequency vMin reduced to 800mV
   * Limited to 2499 MHz on lower CPU Speedo
@@ -20,7 +20,7 @@ Overclocking in general will shorten the lifespan of some hardware components. Y
   * May help achieve higher RAM Frequencies for Hynix NEE / Micron WTB users (3000+ MHz)
 * Vdd2 Overvoltage up to 1212mV
 * Multiple Refresh Rate Support
-  * 50 Hz Added
+  * 50 - 48 - 45 - 40 Hz Added
 * Fix for Nyxi Hyperion Series Joy-con
   * May also apply to other 3rd party Joycon with poor handshake implementation
 
