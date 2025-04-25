@@ -15,7 +15,7 @@ Overclocking in general will shorten the lifespan of some hardware components. Y
 * CPU LUT Table increased to 63
   * Allow finer voltage steps
 * GPU Overclock up to 1305 MHz
-  * GPU Volt Offset -10
+  * GPU Volt Offset -10 / -25 High Freq
 * Increased CPU/GPU vMin & SoC Voltage
   * May help achieve higher RAM Frequencies for Hynix NEE / Micron WTB users (3000+ MHz)
 * Vdd2 Overvoltage up to 1212mV
