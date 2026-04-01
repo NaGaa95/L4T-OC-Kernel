@@ -8,13 +8,17 @@ Overclocking in general will shorten the lifespan of some hardware components.<b
 
 
 ## Features
-- Custom CPU SLT Table (2601-2703 MHz)
-- Custom GPU SLT/HiOPT Table (1267-1305 MHz)
+- Custom CPU Table
+  * 2295 MHz (Erista)
+  * 2601-2703 MHz (Mariko)
+- Custom GPU Table
+  * 998 MHz (Erista)
+  * 1267-1305 (Mariko)
 - 64 CPU LUT Table (Erista & Mariko Supported)
 - CPU UV Override 1-6 
 - CPU High Freq vMin Override
-- Increased SoC / CPU / GPU vMin
-- Allow up to 1250 mV VDD2 
+- Increased SoC / CPU / GPU vMin (Mariko ONLY - Allow higher RAM OC)
+- Allow up to 1250 mV VDD2 / 1300 mV VDD2Q
 - 40/45/48/50Hz Refresh Rate Support
 - LiHV Battery Upgrade Support 
 - Nyxi Joycon Support
@@ -42,17 +46,28 @@ Overclocking in general will shorten the lifespan of some hardware components.<b
 - `lihv=1` (Set max charging voltage to 4.32v)
 <br><br>
 ### **Optional :** <br>
-- For RAM VDD2 Overvolt (+1175 mV) use my hekate fork available [here](https://github.com/NaGaa95/hekate/releases)
+- For RAM VDD2 / VDD2Q Overvolt need to use my hekate fork available [here](https://github.com/NaGaa95/hekate-pro/releases)
   
 - NVPModel Profiles :<br>
-Replace `nvpmodel_t210b01.conf` in `/etc/nvpmodel/nvpmodel_t210b01.conf` **(NEED ROOT ACCESS)**
-0. Low Power   : 1785 - 614
-1. Handheld    : 1963 - 921
-2. OC CPU      : 2703 - 921
-3. OC GPU      : 1963 - 1305
-4. Performance : 2193 - 1075
-5. L4T SLT     : 2397 - 1228
-6. PMIC Burner : 2703 - 1305
+Replace `nvpmodel_t210b01.conf` / `nvpmodel_t210.conf` in `/etc/nvpmodel/` **(NEED ROOT ACCESS)**
+
+Mariko : 
+0. Low Power     : 1785 - 614
+1. Handheld      : 1963 - 921
+2. OC CPU        : 2703 - 921
+3. OC GPU        : 1963 - 1305
+4. Performance   : 2193 - 1075
+5. L4T SLT       : 2397 - 1228
+6. L4T OC Kernel : 2703 - 1305
+
+Erista : 
+0. Console               : 1785 - 768
+1. Handheld              : 1428 - 460
+2. OC CPU                : 2295 - 768
+3. OC GPU                : 1785 - 998
+4. Performance           : 2193 - 1075
+5. L4T Default Max       : 2091 - 921
+6. L4T OC Kernel         : 2295 - 998
 
 ## Info
 
