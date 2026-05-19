@@ -37,6 +37,8 @@ Overclocking in general will shorten the lifespan of some hardware components.<b
 
  - `gpu_dvfsc=1`
 
+ - `extreme_oc=1`
+
  - `cpu_uv=` (1-6 - Recommended 4)
 
  - `cpu_hmin=` (Desired value in mV - Default 850)
